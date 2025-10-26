@@ -1,5 +1,5 @@
 # E-commerce Customer Purchase Prediction
-his Notebook predicts Customer Purchase pattern based on online shoppers intention dataset.
+This Notebook predicts Customer Purchase pattern based on online shoppers intention dataset.
 
 # How to Open this Project
 Check this video to run all my project:
