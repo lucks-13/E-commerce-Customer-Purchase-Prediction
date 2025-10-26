@@ -1,0 +1,2 @@
+Number of components for 95% variance: 25
+Total components available: 47

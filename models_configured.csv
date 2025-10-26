@@ -1,0 +1,9 @@
+Model_Names
+LogisticRegression
+RandomForest
+GradientBoosting
+AdaBoost
+SVM
+KNN
+DecisionTree
+MLP

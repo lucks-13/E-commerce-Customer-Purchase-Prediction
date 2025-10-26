@@ -1,0 +1,15 @@
+Feature Selection Analysis:
+==================================================
+Total unique features selected: 34
+
+Most frequently selected features:
+  Page_Value_Per_Product: 3 methods
+  BounceRates: 3 methods
+  ExitRates_squared: 3 methods
+  ExitRates: 3 methods
+  ExitRates_sqrt: 3 methods
+  PageValues_log: 3 methods
+  ExitRates_log: 3 methods
+  PageValues_sqrt: 3 methods
+  BounceRates_log: 3 methods
+  BounceRates_sqrt: 2 methods

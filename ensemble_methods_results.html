@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ensemble Methods Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+        th { background-color: #2980b9; color: white; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:hover { background-color: #d6eaf8; }
+        h1 { color: #2980b9; text-align: center; border-bottom: 3px solid #2980b9; padding-bottom: 10px; }
+        .summary { background-color: #eaf2f8; padding: 15px; margin: 20px 0; border-radius: 5px; border-left: 4px solid #2980b9; }
+        .ensemble-comparison { display: flex; justify-content: space-around; margin: 20px 0; }
+        .ensemble-card { background-color: #f8f9fa; padding: 15px; border-radius: 5px; text-align: center; min-width: 150px; }
+        .best-ensemble { background-color: #d5e8d4; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ensemble Methods Results</h1>
+        <div class="summary">
+            <h3>Best Ensemble Method: Soft_Voting</h3>
+            <p>ROC-AUC: 0.9307 |
+               Accuracy: 0.9047</p>
+        </div>
+        <div style="overflow-x: auto;">
+            <table border="1" class="dataframe data-table" id="ensemble_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>accuracy</th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1</th>
+      <th>roc_auc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Hard_Voting</th>
+      <td>0.9027</td>
+      <td>0.7448</td>
+      <td>0.5654</td>
+      <td>0.6429</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <th>Soft_Voting</th>
+      <td>0.9047</td>
+      <td>0.7394</td>
+      <td>0.5942</td>
+      <td>0.6589</td>
+      <td>0.9307</td>
+    </tr>
+    <tr>
+      <th>Stacking</th>
+      <td>0.9043</td>
+      <td>0.7450</td>
+      <td>0.5812</td>
+      <td>0.6529</td>
+      <td>0.9293</td>
+    </tr>
+    <tr>
+      <th>Weighted_Ensemble</th>
+      <td>0.9031</td>
+      <td>0.7329</td>
+      <td>0.5890</td>
+      <td>0.6531</td>
+      <td>0.9305</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+    </div>
+</body>
+</html>

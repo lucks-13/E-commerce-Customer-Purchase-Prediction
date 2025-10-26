@@ -1,0 +1,7 @@
+ML ANALYSIS EXPORT COMPRESSION SUMMARY
+=============================================
+ZIP Filename: E-commerce_Customer_Purchase_Prediction.zip
+Total Files: 119
+Compressed Size: 34.74 MB
+Compression Ratio: 20.55%
+All analysis results successfully exported and compressed!

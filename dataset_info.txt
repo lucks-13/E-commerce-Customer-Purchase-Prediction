@@ -1,0 +1,13 @@
+Dataset shape: (12330, 19)
+Missing values: 0
+Duplicate rows: 125
+Target distribution:
+Revenue
+False    10422
+True      1908
+Name: count, dtype: int64
+Target percentage:
+Revenue
+False    84.525547
+True     15.474453
+Name: proportion, dtype: float64

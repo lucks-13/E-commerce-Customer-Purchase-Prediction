@@ -1,0 +1,14 @@
+Model Interpretability Analysis:
+==================================================
+Best Model: GradientBoosting
+Top 10 Most Important Features:
+  1. Session_Quality_Score: 0.0848
+  2. PageValues_log: 0.0206
+  3. Page_Value_Per_Product: 0.0094
+  4. Month_Nov: 0.0076
+  5. Administrative: 0.0057
+  6. PageValues_sqrt: 0.0027
+  7. VisitorType_Returning_Visitor: 0.0015
+  8. ProductRelated: 0.0014
+  9. ProductRelated_Duration: 0.0014
+  10. Total_Duration: 0.0013

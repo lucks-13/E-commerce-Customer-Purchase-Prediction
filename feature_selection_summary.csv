@@ -1,0 +1,4 @@
+Method,Features_Selected
+Univariate,20
+RFE,20
+Mutual_Info,20

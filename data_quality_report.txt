@@ -1,0 +1,21 @@
+Data Quality Report:
+==================================================
+                           dtype missing_count missing_percentage unique_count duplicate_count        mean          std  min          max  skewness    kurtosis zeros_count outliers_iqr
+Administrative             int64             0                0.0           27           12303    2.315166     3.321784    0           27  1.960357    4.701146        5768          404
+Administrative_Duration  float64             0                0.0         3335            8995   80.818611   176.779107  0.0      3398.75  5.615719   50.556739        5903         1172
+Informational              int64             0                0.0           17           12313    0.503569     1.270156    0           24  4.036464   26.932266        9699         2631
+Informational_Duration   float64             0                0.0         1258           11072   34.472398   140.749294  0.0     2549.375  7.579185   76.316853        9925         2405
+ProductRelated             int64             0                0.0          311           12019   31.731468    44.475503    0          705  4.341516   31.211707          38          987
+ProductRelated_Duration  float64             0                0.0         9551            2779  1194.74622  1913.669288  0.0  63973.52223  7.263228  137.174164         755          961
+BounceRates              float64             0                0.0         1872           10458    0.022191     0.048488  0.0          0.2  2.947855    7.723159        5518         1551
+ExitRates                float64             0                0.0         4777            7553    0.043073     0.048597  0.0          0.2  2.148789    4.017035          76         1099
+PageValues               float64             0                0.0         2704            9626    5.889258    18.568437  0.0   361.763742  6.382964   65.635694        9600         2730
+SpecialDay               float64             0                0.0            6           12324    0.061427     0.198917  0.0          1.0  3.302667    9.913659       11079         1251
+Month                     object             0                0.0           10           12320         NaN          NaN  NaN          NaN       NaN         NaN         NaN          NaN
+OperatingSystems           int64             0                0.0            8           12322    2.124006     0.911325    1            8  2.066285   10.456843           0          111
+Browser                    int64             0                0.0           13           12317    2.357097     1.717277    1           13   3.24235   12.746733           0         4369
+Region                     int64             0                0.0            9           12321    3.147364     2.401591    1            9  0.983549    -0.14868           0          511
+TrafficType                int64             0                0.0           20           12310    4.069586     4.025169    1           20  1.962987    3.479711           0         2101
+VisitorType               object             0                0.0            3           12327         NaN          NaN  NaN          NaN       NaN         NaN         NaN          NaN
+Weekend                     bool             0                0.0            2           12328         NaN          NaN  NaN          NaN       NaN         NaN         NaN          NaN
+Revenue                     bool             0                0.0            2           12328         NaN          NaN  NaN          NaN       NaN         NaN         NaN          NaN

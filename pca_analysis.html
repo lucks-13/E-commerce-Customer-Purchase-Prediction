@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Principal Component Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1000px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+        th { background-color: #9b59b6; color: white; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:hover { background-color: #f4ecf7; }
+        h1 { color: #9b59b6; text-align: center; border-bottom: 3px solid #9b59b6; padding-bottom: 10px; }
+        .pca-summary { background-color: #f4ecf7; padding: 15px; margin: 20px 0; border-radius: 5px; border-left: 4px solid #9b59b6; }
+        .highlight-95 { background-color: #e8daef; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Principal Component Analysis</h1>
+        <div class="pca-summary">
+            <h3>PCA Summary</h3>
+            <p><strong>Components for 95% Variance:</strong> 25</p>
+            <p><strong>Total Components Available:</strong> 47</p>
+            <p><strong>Dimensionality Reduction:</strong> 47 → 25 (46.8% reduction)</p>
+        </div>
+        <p><strong>First 20 Principal Components (showing explained variance)</strong></p>
+        <table border="1" class="dataframe data-table" id="pca_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Explained_Variance_Ratio</th>
+      <th>Cumulative_Variance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>0.233804</td>
+      <td>0.233804</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>0.104067</td>
+      <td>0.337871</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>0.089164</td>
+      <td>0.427035</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>0.050886</td>
+      <td>0.477921</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>0.043930</td>
+      <td>0.521851</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>0.037975</td>
+      <td>0.559827</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>0.034471</td>
+      <td>0.594297</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>0.031120</td>
+      <td>0.625418</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>0.025982</td>
+      <td>0.651400</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>0.025328</td>
+      <td>0.676728</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>0.023761</td>
+      <td>0.700489</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>0.022493</td>
+      <td>0.722982</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>0.022370</td>
+      <td>0.745352</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>0.022195</td>
+      <td>0.767547</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>0.022032</td>
+      <td>0.789579</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>0.021470</td>
+      <td>0.811049</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>0.020472</td>
+      <td>0.831522</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>0.020106</td>
+      <td>0.851628</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>0.019316</td>
+      <td>0.870943</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>0.017753</td>
+      <td>0.888696</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Ensemble Methods Results:
+==================================================
+                   accuracy  precision  recall      f1  roc_auc
+Hard_Voting          0.9027     0.7448  0.5654  0.6429   0.0000
+Soft_Voting          0.9047     0.7394  0.5942  0.6589   0.9307
+Stacking             0.9043     0.7450  0.5812  0.6529   0.9293
+Weighted_Ensemble    0.9031     0.7329  0.5890  0.6531   0.9305

@@ -1,0 +1,36 @@
+Original features: 19
+Engineered features: 48
+New features created:
+- Admin_Info_Interaction
+- Duration_Ratio
+- Product_Admin_Ratio
+- Bounce_Exit_Interaction
+- Page_Value_Per_Product
+- BounceRates_squared
+- BounceRates_cubed
+- BounceRates_log
+- BounceRates_sqrt
+- ExitRates_squared
+- ExitRates_cubed
+- ExitRates_log
+- ExitRates_sqrt
+- PageValues_squared
+- PageValues_cubed
+- PageValues_log
+- PageValues_sqrt
+- Total_Duration
+- Avg_Duration_Per_Page
+- Session_Quality_Score
+- Month_Numeric
+- Month_Dec
+- Month_Feb
+- Month_Jul
+- Month_June
+- Month_Mar
+- Month_May
+- Month_Nov
+- Month_Oct
+- Month_Sep
+- VisitorType_Other
+- VisitorType_Returning_Visitor
+- Weekend_True

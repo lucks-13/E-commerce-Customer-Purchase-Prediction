@@ -1,0 +1,6 @@
+Scaler_Type,Description
+StandardScaler,Standardizes features by removing mean and scaling to unit variance
+MinMaxScaler,"Scales features to a fixed range [0,1]"
+RobustScaler,Uses statistics robust to outliers
+PowerTransformer,Maps features to normal distribution
+QuantileTransformer,Maps features to uniform distribution

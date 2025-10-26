@@ -1,0 +1,4 @@
+Strong correlations (|r| > 0.7):
+========================================
+ProductRelated <-> ProductRelated_Duration: 0.861
+BounceRates <-> ExitRates: 0.913

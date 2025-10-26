@@ -1,0 +1,3 @@
+Set,Shape,Class_0_Count,Class_1_Count,Class_0_Percentage,Class_1_Percentage
+Training,"(9864, 47)",8338,1526,84.52960259529603,15.470397404703974
+Test,"(2466, 47)",2084,382,84.50932684509327,15.49067315490673

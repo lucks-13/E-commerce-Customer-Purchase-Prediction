@@ -1,0 +1,12 @@
+Training set shape: (9864, 47)
+Test set shape: (2466, 47)
+Training set class distribution:
+Revenue
+0    0.845296
+1    0.154704
+Name: proportion, dtype: float64
+Test set class distribution:
+Revenue
+0    0.845093
+1    0.154907
+Name: proportion, dtype: float64

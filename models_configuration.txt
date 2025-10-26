@@ -1,0 +1,10 @@
+Configured 8 models for hyperparameter tuning
+Models:
+- LogisticRegression
+- RandomForest
+- GradientBoosting
+- AdaBoost
+- SVM
+- KNN
+- DecisionTree
+- MLP

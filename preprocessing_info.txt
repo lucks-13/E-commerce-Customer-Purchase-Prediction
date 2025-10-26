@@ -1,0 +1,7 @@
+Preprocessing completed with multiple scaling strategies
+Available scalers:
+- StandardScaler
+- MinMaxScaler
+- RobustScaler
+- PowerTransformer
+- QuantileTransformer

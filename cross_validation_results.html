@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cross Validation Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+        th { background-color: #16a085; color: white; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:hover { background-color: #d0ece7; }
+        h1 { color: #16a085; text-align: center; border-bottom: 3px solid #16a085; padding-bottom: 10px; }
+        .best-model { background-color: #d5f4e6; font-weight: bold; }
+        .info { background-color: #e8f8f5; padding: 15px; margin: 20px 0; border-radius: 5px; border-left: 4px solid #16a085; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cross Validation Results</h1>
+        <div class="info">
+            <p><strong>Validation Strategy:</strong> Multiple cross-validation techniques used to ensure model stability</p>
+            <p><strong>Metrics:</strong> Mean ± Standard Deviation of ROC-AUC scores</p>
+            <p><strong>Best Model:</strong> GradientBoosting (highlighted in green)</p>
+        </div>
+        <table>
+            <tr><th>Model</th><th>10-Fold CV</th><th>5-Fold CV</th><th>3-Fold CV</th><th>Bootstrap</th></tr>
+            <tr class="best-model">
+        <td>GradientBoosting</td>
+        <td>0.9329 ± 0.0070</td>
+        <td>0.9319 ± 0.0030</td>
+        <td>0.9310 ± 0.0050</td>
+        <td>0.9311 ± 0.0041</td>
+    </tr><tr class="">
+        <td>RandomForest</td>
+        <td>0.9334 ± 0.0089</td>
+        <td>0.9315 ± 0.0054</td>
+        <td>0.9296 ± 0.0045</td>
+        <td>0.9301 ± 0.0040</td>
+    </tr><tr class="">
+        <td>AdaBoost</td>
+        <td>0.9240 ± 0.0072</td>
+        <td>0.9241 ± 0.0031</td>
+        <td>0.9212 ± 0.0060</td>
+        <td>0.9226 ± 0.0045</td>
+    </tr>
+        </table>
+    </div>
+</body>
+</html>

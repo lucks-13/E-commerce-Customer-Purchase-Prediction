@@ -1,0 +1,83 @@
+{
+    "dataset_info": {
+        "shape": [
+            12330,
+            19
+        ],
+        "missing_values": 0,
+        "duplicate_rows": 125,
+        "target_distribution": {
+            "false": 10422,
+            "true": 1908
+        }
+    },
+    "feature_engineering": {
+        "original_features": 19,
+        "engineered_features": 48,
+        "new_features_count": 29
+    },
+    "best_model_performance": {
+        "model_name": "GradientBoosting",
+        "roc_auc": 0.9305095667815619,
+        "accuracy": 0.9014598540145985,
+        "precision": 0.7293729372937293,
+        "recall": 0.5785340314136126,
+        "f1_score": 0.6452554744525547
+    },
+    "ensemble_performance": {
+        "Hard_Voting": {
+            "accuracy": 0.902676399026764,
+            "precision": 0.7448275862068966,
+            "recall": 0.5654450261780105,
+            "f1": 0.6428571428571429,
+            "roc_auc": 0.0
+        },
+        "Soft_Voting": {
+            "accuracy": 0.9047039740470397,
+            "precision": 0.739413680781759,
+            "recall": 0.5942408376963351,
+            "f1": 0.6589259796806967,
+            "roc_auc": 0.9306772618102521
+        },
+        "Stacking": {
+            "accuracy": 0.9042984590429846,
+            "precision": 0.7449664429530202,
+            "recall": 0.581151832460733,
+            "f1": 0.6529411764705882,
+            "roc_auc": 0.9293005295896937
+        },
+        "Weighted_Ensemble": {
+            "accuracy": 0.9030819140308192,
+            "precision": 0.7328990228013029,
+            "recall": 0.5890052356020943,
+            "f1": 0.6531204644412192,
+            "roc_auc": 0.9304511561535911
+        }
+    },
+    "deployment_recommendation": {
+        "recommended_model": "RandomForest",
+        "expected_performance": 0.9305095667815619,
+        "production_ranking": [
+            {
+                "model": "RandomForest",
+                "score": 70.40206894558727
+            },
+            {
+                "model": "GradientBoosting",
+                "score": 69.45399791468867
+            },
+            {
+                "model": "AdaBoost",
+                "score": 69.16647949867166
+            },
+            {
+                "model": "LogisticRegression",
+                "score": 42.72418124629438
+            },
+            {
+                "model": "DecisionTree",
+                "score": 41.04217423199445
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+Cross-Validation Summary:
+==================================================
+
+GradientBoosting:
+  10-Fold CV: 0.9329 ± 0.0070
+  Bootstrap: 0.9311 ± 0.0041
+
+RandomForest:
+  10-Fold CV: 0.9334 ± 0.0089
+  Bootstrap: 0.9301 ± 0.0040
+
+AdaBoost:
+  10-Fold CV: 0.9240 ± 0.0072
+  Bootstrap: 0.9226 ± 0.0045

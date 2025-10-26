@@ -1,0 +1,6 @@
+Model,Production_Score,Rank
+RandomForest,70.40206894558727,1
+GradientBoosting,69.45399791468867,2
+AdaBoost,69.16647949867166,3
+LogisticRegression,42.72418124629438,4
+DecisionTree,41.04217423199445,5

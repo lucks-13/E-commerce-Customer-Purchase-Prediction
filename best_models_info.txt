@@ -1,0 +1,42 @@
+Best Models Information:
+==================================================
+
+LogisticRegression:
+  Type: LogisticRegression
+  ROC-AUC: 0.9181
+  Accuracy: 0.8970
+
+RandomForest:
+  Type: RandomForestClassifier
+  ROC-AUC: 0.9274
+  Accuracy: 0.9039
+
+GradientBoosting:
+  Type: GradientBoostingClassifier
+  ROC-AUC: 0.9305
+  Accuracy: 0.9015
+
+AdaBoost:
+  Type: AdaBoostClassifier
+  ROC-AUC: 0.9211
+  Accuracy: 0.8982
+
+SVM:
+  Type: SVC
+  ROC-AUC: 0.9005
+  Accuracy: 0.8909
+
+KNN:
+  Type: KNeighborsClassifier
+  ROC-AUC: 0.8819
+  Accuracy: 0.8938
+
+DecisionTree:
+  Type: DecisionTreeClassifier
+  ROC-AUC: 0.9061
+  Accuracy: 0.8950
+
+MLP:
+  Type: MLPClassifier
+  ROC-AUC: 0.8946
+  Accuracy: 0.8881
